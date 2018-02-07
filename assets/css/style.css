@@ -1,8 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Rammetto+One');
+
+
 nav ul li a {
 	color: black;
   }
 nav .brand-logo {
 	color: black;
+	font-family: 'Rammetto One', cursive;
+	font-size: 300%;
 }
 
 #byline-and-photo h3 {
