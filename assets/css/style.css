@@ -1,16 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Rammetto+One');
+@import url('https://fonts.googleapis.com/css?family=Rammetto+One|Nanum+Myeongjo|Playfair+Display');
 
-
-nav ul li a {
-	color: black;
-  }
-nav .brand-logo {
-	color: black;
-	font-family: 'Rammetto One', cursive;
-	font-size: 300%;
+h1 {
+	font-family: 'Playfair Display', serif;
 }
 
-#byline-and-photo h3 {
+p {
+	font-family: 'Nanum Myeongjo', serif;
+	font-size: 200%;
+}
+
+#byline-and-photo h3 p {
 	font-size: 75%;
 }
 
@@ -24,3 +23,16 @@ nav .brand-logo {
 	padding: 0;
 	width: 9%;
 }
+
+/* Materialize Modifications */
+nav ul li a {
+	color: black;
+  }
+nav .brand-logo {
+	color: black;
+	font-family: 'Rammetto One', cursive;
+	font-size: 200%;
+}
+
+
+
