@@ -18,3 +18,9 @@ nav .brand-logo {
 	float: left;
 	padding: right
 }
+
+#album-art-banner img {
+	margin: 0;
+	padding: 0;
+	width: 9%;
+}
