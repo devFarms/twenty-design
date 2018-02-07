@@ -1,7 +1,15 @@
+nav ul li a {
+	color: black;
+  }
+nav .brand-logo {
+	color: black;
+}
+
 #byline-and-photo h3 {
 	font-size: 75%;
 }
 
 #byline-and-photo img {
 	float: left;
+	padding: right
 }
