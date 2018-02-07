@@ -6,7 +6,6 @@ h1 {
 
 p {
 	font-family: 'Nanum Myeongjo', serif;
-	font-size: 200%;
 }
 
 #byline-and-photo h3 p {
@@ -24,14 +23,25 @@ p {
 	width: 9%;
 }
 
+.my {
+	font-weight: 100;
+}
+.fav {
+	font-weight: 100;
+}
+.twenty {
+	font-weight: 600;
+}
+
 /* Materialize Modifications */
+nav {
+	font-weight: 100;
+}
 nav ul li a {
 	color: black;
   }
 nav .brand-logo {
 	color: black;
-	font-family: 'Rammetto One', cursive;
-	font-size: 200%;
 }
 
 
