@@ -3,12 +3,15 @@ function getAlbumArt(){
     headers: {
         "Accept":"application/json",
         "Content-Type":"application/json",
-        "Authorization":"Bearer BQBYDBY2P6OmXWw0OQes18SeIhr_s5bjkE0fdeIN_LzbbVTn8foEhKTLpsnlHGXzf76KwgtZ2aioY_45y1XAkJhhZ65R4hLtql0RWT1vFq8kiR59GaWmu9lDCiRgMtRaney4AhGLPALhjzwfuv6aHS_-VjoktKNLczI"
+        "Authorization":"Bearer BQAFFcHuRO-_XvQ8sq1s51Bd9mcMaukI6MDlFwMV2vxI-j70MmB-XduJOmpGam6prvvFBwM27e2McRt2kfbNmnlYHYn7f3vWsp5K5AbQ6jPVIaqahUwwXdn4YBGC_aWtteWA3DQEgdRWwg8qhb5sfOSQL4LGoO4pVPg"
     }
     }).then(function (response){
         // console.log(response.data.items[0].track.album.images[1].url);
         for (i = 0; i < response.data.items.length; i++){
-            console.log(response.data.items[i].track.album.images[1].url);
+            // console.log(response.data.items[i].track.album.images[1].url);
+            var albumArt = $('<img>');
+            albumArt.attr("src", response.data.items[i].track.album.images[1].url);
+            $('#album-art-banner').append(albumArt);
         }
     }).catch(function (error) {
         console.log(error);
