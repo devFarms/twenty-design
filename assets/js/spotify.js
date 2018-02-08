@@ -12,7 +12,7 @@ function getAlbumArtAlex(){
     headers: {
         "Accept":"application/json",
         "Content-Type":"application/json",
-        "Authorization":"Bearer BQBv7fqlPnzphFgjBirhRpyXP6OJDZNTw3KTZeWbz0EFJCNDt-dxIxHOMFhbGIjALjq7V_Y6ofoirSyaYCqCKk2bbE6SEhTrF3zr50I6Mj-V16BLv0l2onVNoEBiztTVNuT48oyo4-VtWnYwQ4LsZic4f0RkwJRF7PU"
+        "Authorization":"Bearer BQBJzNCXIURD4Q_K_4XA7yJ-dRfTtcA4aCjPbgZmfBz8fz-bPI-9xZAzMqWA6T-8ZvZTB6go_QwV5e7ezPd-aTZDQh069i4aF-4z32z6SWxL4tLvOpKc4Z3iSOESk8U-YLswrvvWVrt35xXglr9Wt5k4KyiuPfib22I"
     }
     }).then(function (response){
         for (i = 0; i < response.data.items.length; i++){
