@@ -66,4 +66,4 @@ function getAlbumArtSara(){
     });
 }
 
-getAlbumArt();
+// getAlbumArt();
