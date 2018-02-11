@@ -12,7 +12,7 @@ function getAlbumArtAlex(){
     headers: {
         "Accept":"application/json",
         "Content-Type":"application/json",
-        "Authorization":"Bearer BQD2raGEHGqerlkb-lQyospgsW0ndK98HYMPDOZpE2jj_dZoK4n5_rMlfq_42iOiMieMf2WMT9Sj6ByI8LDfHhdvzj_wL1NaYnq44cUh_xODZ5_VIyDxyfVmtsOYchApbBRea3PHNar4RkO4WHhOm0K9Y8mNgavKh54"
+        "Authorization":"Bearer BQBx9nHrIbTlAdCLKl0Au9q97HGhfijjjr-Sx0lpwsEz2MzGUWMxtbFgJVz44xuW6w97CTrnU0PvOGS5Ozhyl46flIDeirChUHih7mAWwllt9FJGfl7829yn3wFBrA1yF_Jv8FPZKkduprGVm9uJWKiX34-VfAqbTOo"
     }
     }).then(function (response){
         for (i = 0; i < response.data.items.length; i++){
@@ -32,7 +32,7 @@ function getAlbumArtAnita(){
     headers: {
         "Accept":"application/json",
         "Content-Type":"application/json",
-        "Authorization":"Bearer BQD2raGEHGqerlkb-lQyospgsW0ndK98HYMPDOZpE2jj_dZoK4n5_rMlfq_42iOiMieMf2WMT9Sj6ByI8LDfHhdvzj_wL1NaYnq44cUh_xODZ5_VIyDxyfVmtsOYchApbBRea3PHNar4RkO4WHhOm0K9Y8mNgavKh54"
+        "Authorization":"Bearer BQBx9nHrIbTlAdCLKl0Au9q97HGhfijjjr-Sx0lpwsEz2MzGUWMxtbFgJVz44xuW6w97CTrnU0PvOGS5Ozhyl46flIDeirChUHih7mAWwllt9FJGfl7829yn3wFBrA1yF_Jv8FPZKkduprGVm9uJWKiX34-VfAqbTOo"
     }
     }).then(function (response){
         for (i = 0; i < response.data.items.length; i++){
@@ -52,7 +52,7 @@ function getAlbumArtSara(){
     headers: {
         "Accept":"application/json",
         "Content-Type":"application/json",
-        "Authorization":"Bearer BQD2raGEHGqerlkb-lQyospgsW0ndK98HYMPDOZpE2jj_dZoK4n5_rMlfq_42iOiMieMf2WMT9Sj6ByI8LDfHhdvzj_wL1NaYnq44cUh_xODZ5_VIyDxyfVmtsOYchApbBRea3PHNar4RkO4WHhOm0K9Y8mNgavKh54"
+        "Authorization":"Bearer BQBx9nHrIbTlAdCLKl0Au9q97HGhfijjjr-Sx0lpwsEz2MzGUWMxtbFgJVz44xuW6w97CTrnU0PvOGS5Ozhyl46flIDeirChUHih7mAWwllt9FJGfl7829yn3wFBrA1yF_Jv8FPZKkduprGVm9uJWKiX34-VfAqbTOo"
     }
     }).then(function (response){
         for (i = 0; i < response.data.items.length; i++){
